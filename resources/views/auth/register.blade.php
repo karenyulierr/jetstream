@@ -54,6 +54,10 @@
                 <x-button class="ml-4">
                     {{ __('Register') }}
                 </x-button>
+                <!--Gmail -->
+                <a class="ml-4" href="{{url('/auth/redirect')}}">
+                    Google Mail
+                </a>
             </div>
         </form>
     </x-authentication-card>
